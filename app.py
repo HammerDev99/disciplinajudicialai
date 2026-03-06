@@ -127,13 +127,9 @@ APP_IDENTITY = {
     },
     # Footer text
     "footer_text": """
-    **Desarrollador Original:**
-    {developer}
-    [GitHub]({github_url}) | [Website]({website_url}) | [LinkedIn]({linkedin_url}) | [Instagram]({instagram_url}) | [Twitter]({twitter_url}) | [Facebook]({facebook_url}) | [WhatsApp]({whatsapp_url})
+    **{developer}** - Legal Tech Developer
 
-    **Adaptado por:**
-    {fork_developer} - Legal Tech Developer
-    [GitHub]({fork_github_url}) | [Website]({fork_website_url}) | [Blog]({fork_blog_url}) | [LinkedIn]({fork_linkedin_url}) | [Instagram]({fork_instagram_url}) | [Twitter]({fork_twitter_url}) | [YouTube]({fork_youtube_url}) | [Email](mailto:{fork_email})
+    [GitHub]({github_url}) | [Website]({website_url}) | [Blog]({blog_url}) | [LinkedIn]({linkedin_url}) | [Instagram]({instagram_url}) | [Twitter]({twitter_url}) | [YouTube]({youtube_url}) | [Email](mailto:{email})
     """,
     # Log configuration
     "log_name": "disciplinajudicial",
@@ -1924,20 +1920,12 @@ with st.sidebar:
             developer=APP_IDENTITY["developer"],
             github_url=APP_IDENTITY["github_url"],
             website_url=APP_IDENTITY["website_url"],
+            blog_url=APP_IDENTITY["blog_url"],
             linkedin_url=APP_IDENTITY["linkedin_url"],
             instagram_url=APP_IDENTITY["instagram_url"],
             twitter_url=APP_IDENTITY["twitter_url"],
-            facebook_url=APP_IDENTITY["facebook_url"],
-            whatsapp_url=APP_IDENTITY["whatsapp_url"],
-            fork_developer=APP_IDENTITY["fork_developer"],
-            fork_github_url=APP_IDENTITY["fork_github_url"],
-            fork_website_url=APP_IDENTITY["fork_website_url"],
-            fork_blog_url=APP_IDENTITY["fork_blog_url"],
-            fork_linkedin_url=APP_IDENTITY["fork_linkedin_url"],
-            fork_instagram_url=APP_IDENTITY["fork_instagram_url"],
-            fork_twitter_url=APP_IDENTITY["fork_twitter_url"],
-            fork_youtube_url=APP_IDENTITY["fork_youtube_url"],
-            fork_email=APP_IDENTITY["fork_email"],
+            youtube_url=APP_IDENTITY["youtube_url"],
+            email=APP_IDENTITY["email"],
         ),
         unsafe_allow_html=True,
     )
