@@ -122,14 +122,21 @@ Este asistente se desarrolla como herramienta de apoyo informativo para servidor
 - **Procuraduría General de la Nación** por las guías disciplinarias
 - **Comunidad judicial colombiana** por su compromiso con la transparencia y la ética profesional
 
+## Autoría, licencia y aviso
+
+- **Autor:** Daniel Arbeláez Álvarez. Construido a partir de una plantilla de otro autor ([perfil del autor de la plantilla](https://github.com/alexanderoviedofadul)), con equipo y cuentas propias, sin encargo ni instrucción de ninguna entidad o dependencia.
+- **Inicio:** Primer commit: 06/03/2026.
+- **Licencia:** MIT, "Copyright (c) 2025 Daniel" (ver [LICENSE](LICENSE)).
+- **Demo:** [disciplinajudicialai.streamlit.app](https://disciplinajudicialai.streamlit.app). La demo usa servicios de IA de terceros. No ingreses datos personales ni información de procesos reales.
+
+*Herramienta personal de software libre, publicada a título personal. No representa a la Rama Judicial; su uso en un despacho requiere las autorizaciones institucionales que correspondan.*
+
 ## Autor
 
 ### Desarrollador
 Adaptado y personalizado por [Daniel Arbeláez](https://github.com/HammerDev99) - Legal Tech Developer
 
-Centro de Servicios Judiciales de Bello — Antioquia
-
-[GitHub](https://github.com/HammerDev99) | [Website](http://portfolio.sprintjudicial.com/) | [Blog](https://blog.sprintjudicial.com/) | [LinkedIn](https://www.linkedin.com/in/daniel-arbelaez-/) | [Instagram](https://www.instagram.com/daniel_arbe99/) | [Twitter](https://x.com/hammerdev99) | [YouTube](http://youtube.com/@daainti/videos) | [Email](mailto:arbe.94@hotmail.com)
+[GitHub](https://github.com/HammerDev99) | [Portafolio](https://portfolio.sprintjudicial.com/) | [LinkedIn](https://www.linkedin.com/in/daniel-arbelaez-/) | [Email](mailto:daniel.arbelaez.alvarez@gmail.com)
 
 ---
 

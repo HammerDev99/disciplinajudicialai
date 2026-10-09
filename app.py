@@ -34,14 +34,10 @@ APP_IDENTITY = {
     # Información del desarrollador
     "developer": "Daniel Arbeláez",
     "github_url": "https://github.com/HammerDev99",
-    "website_url": "http://portfolio.sprintjudicial.com/",
-    "blog_url": "https://blog.sprintjudicial.com/",
+    "website_url": "https://portfolio.sprintjudicial.com/",
     "docs_url": "https://github.com/HammerDev99/disciplinajudicialai/blob/main/README.md",
     "linkedin_url": "https://www.linkedin.com/in/daniel-arbelaez-/",
-    "instagram_url": "https://www.instagram.com/daniel_arbe99/",
-    "twitter_url": "https://x.com/hammerdev99",
-    "youtube_url": "http://youtube.com/@daainti/videos",
-    "email": "arbe.94@hotmail.com",
+    "email": "daniel.arbelaez.alvarez@gmail.com",
     "repository_url": "https://github.com/HammerDev99/disciplinajudicialai",
     # Descripción de la aplicación - formas corta y larga
     "short_description": "Asistente especializado en orientación sobre procesos disciplinarios para servidores judiciales en Colombia.",
@@ -129,7 +125,7 @@ APP_IDENTITY = {
     "footer_text": """
     **{developer}** - Legal Tech Developer
 
-    [GitHub]({github_url}) | [Website]({website_url}) | [Blog]({blog_url}) | [LinkedIn]({linkedin_url}) | [Instagram]({instagram_url}) | [Twitter]({twitter_url}) | [YouTube]({youtube_url}) | [Email](mailto:{email})
+    [GitHub]({github_url}) | [Portafolio]({website_url}) | [LinkedIn]({linkedin_url}) | [Email](mailto:{email})
     """,
     # Log configuration
     "log_name": "disciplinajudicial",
@@ -1920,11 +1916,7 @@ with st.sidebar:
             developer=APP_IDENTITY["developer"],
             github_url=APP_IDENTITY["github_url"],
             website_url=APP_IDENTITY["website_url"],
-            blog_url=APP_IDENTITY["blog_url"],
             linkedin_url=APP_IDENTITY["linkedin_url"],
-            instagram_url=APP_IDENTITY["instagram_url"],
-            twitter_url=APP_IDENTITY["twitter_url"],
-            youtube_url=APP_IDENTITY["youtube_url"],
             email=APP_IDENTITY["email"],
         ),
         unsafe_allow_html=True,
