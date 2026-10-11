@@ -8,7 +8,7 @@ DisciplinaJudicial AI is a Streamlit-based AI assistant specialized in **discipl
 
 ### Core Technologies
 - **Framework**: Streamlit (web UI)
-- **AI Services**: OpenAI Assistants API v2, Mistral OCR API
+- **AI Services**: OpenAI Responses API (SDK `openai>=3`), Mistral OCR API
 - **Document Processing**: PyPDF2, Pillow, FPDF2, ReportLab
 - **Python Version**: 3.8+
 
@@ -69,7 +69,7 @@ Key `st.session_state` variables:
 ```toml
 OPENAI_API_KEY = "sk-..."
 MISTRAL_API_KEY = "..."
-ASSISTANT_ID = "asst_..."
+VECTOR_STORE_ID = "vs_..."              # Optional: knowledge base for file_search (replaces ASSISTANT_ID)
 ANALYTICS_SCRIPT = "<script defer src='...' data-website-id='...'></script>"  # Optional
 ```
 

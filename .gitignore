@@ -210,3 +210,8 @@ __marimo__/
 .streamlit/secrets.toml
 ANALYTICS_QUICK_GUIDE.md
 ANALYTICS_IMPLEMENTATION.md
+
+# Base de conocimiento: los documentos oficiales no se distribuyen en el repositorio
+knowledge/*
+!knowledge/README.md
+!knowledge/disciplinajudicialai_base_conocimiento.md
